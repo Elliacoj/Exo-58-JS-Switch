@@ -7,4 +7,6 @@ switch (fruits) {
     case "Apple":
         alert("Welcome");
         break;
+    default:
+        alert("Perdu");
 }
