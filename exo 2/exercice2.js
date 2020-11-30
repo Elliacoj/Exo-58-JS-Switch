@@ -1,9 +1,12 @@
+let fruits = prompt ("Tapez Banana, Apple ou autre chose");
 
-(fruits) {
-    "Banana":
-    alert("Hello")
-    break;
-    "Apple":
-    alert("Welcome")
-    break;
+switch (fruits) {
+    case "Banana":
+        alert("Hello");
+        break;
+    case "Apple":
+        alert("Welcome");
+        break;
+    default:
+        alert("aucun des deux");
 }
